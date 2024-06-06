@@ -20,7 +20,18 @@ export class Book {
   @Prop()
   password: string;
 
+  @Prop()
+  otp?: number; 
+
+
+  @Prop()
+  user_status?:string
+
+
+  @Prop()
+  email_verifications?:string
   // @Prop()
+
   // price: number;
 
   // @Prop()
